@@ -1,4 +1,4 @@
-package es.ilerna.M0486.ra3.pt22.pt3.anotacions.jpa.main;
+package es.ilerna.M0486.ra3.pt22.pt3.anotacions.main;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
