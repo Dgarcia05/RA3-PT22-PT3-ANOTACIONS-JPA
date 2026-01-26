@@ -1,10 +1,22 @@
 package es.ilerna.M0486.ra3.pt22.anotacions.jpa.domain;
 
-public class Student {
+import javax.persistence.*;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+@Entity
+@DiscriminatorValue("STUDENT")
+public class Student extends Person {
 
+	private String studentCode;
+	public Student() {
 	}
-
+	public Student(String name, String surname, Integer phoneNumber, String studentCode) {
+		super(name, surname, phoneNumber);
+		this.studentCode = studentCode;
+	}
+	public String getStudentCode() {
+		return studentCode;
+	}
+	public void setStudentCode(String studentCode) {
+		this.studentCode = studentCode;
+	}
 }
