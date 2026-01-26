@@ -6,8 +6,7 @@ import java.util.Scanner;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import es.ilerna.M0486.ra3.pt22.pt3.anotacions.Person;
-import es.ilerna.M0486.ra3.pt22.pt3.anotacions.Student;
+import es.ilerna.M0486.ra3.pt22.anotacions.jpa.domain.*;
 
 public class Main {
 
