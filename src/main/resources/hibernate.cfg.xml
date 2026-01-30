@@ -8,10 +8,10 @@
 		
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="hibernate.connection.url">
-			jdbc:mysql://localhost:3306/ddbb-name?useSSL=false&amp;serverTimezone=UTC
+			jdbc:mysql://localhost:3306/damflix_db?useSSL=false&amp;serverTimezone=UTC
 		</property>
 		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">pasw</property>
+		<property name="hibernate.connection.password">Chanquete18</property>
 		
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		
